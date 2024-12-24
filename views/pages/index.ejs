@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    <head>
+        <%- include('../partials/head.ejs') %>       
+           <style>
+              option{
+                 cursor:pointer;
+              }  
+
+              .swiperss div {
+                   width:100%;
+              }  
+
+
+              #iframeDiv{ 
+                  animation:fromtop 4s 1;
+              }
+
+
+
+              @keyframes fromtop { 
+                 from{
+                     top:-10%;  
+                    z-index:10000000; 
+                    position:absolute;
+                 } 
+                to{
+                   top:50%
+                 }
+              }
+           </style>
+    </head>
+    <body class="body-bg">
+  
+        <%- include('../partials/header.ejs') %>     
+
+        <!-- Hero Section Start --
+        <section class="hero-section section-padding bg-cover" style="background-image: url('assets/img/dark-gradient-bg.jpg');">
+            <div class="hero-1">
+                <div class="container-fluid">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="hero-image">
+                                <img src="assets/img/hero/01.jpg" alt="img">
+                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                                <div class="movie-content">
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>Action, war, romantic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-image">
+                                <img src="assets/img/hero/02.jpg" alt="img">
+                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                                <div class="movie-content">
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>Action, war, romantic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-wrapper">
+                        <div class="swiper movie-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="movie-box-items">
+                                        <div class="movie-image">
+                                            <img src="assets/img/movie/01.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                            <div class="movie-content">
+                                                <ul class="post-time">
+                                                    <li>
+                                                        <i class="fa-regular fa-clock"></i>
+                                                        02h 45m
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-tv"></i>
+                                                        zen up
+                                                    </li>
+                                                </ul>
+                                                <h3><a href="/">Happy Women’s day</a></h3>
+                                                <p>Action, war, romantic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="movie-box-items">
+                                        <div class="movie-image">
+                                            <img src="assets/img/movie/02.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                            <div class="movie-content">
+                                                <ul class="post-time">
+                                                    <li>
+                                                        <i class="fa-regular fa-clock"></i>
+                                                        02h 45m
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-tv"></i>
+                                                        zen up
+                                                    </li>
+                                                </ul>
+                                                <h3><a href="/">Happy Women’s day</a></h3>
+                                                <p>Action, war, romantic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="movie-box-items">
+                                        <div class="movie-image">
+                                            <img src="assets/img/movie/03.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                            <div class="movie-content">
+                                                <ul class="post-time">
+                                                    <li>
+                                                        <i class="fa-regular fa-clock"></i>
+                                                        02h 45m
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-tv"></i>
+                                                        zen up
+                                                    </li>
+                                                </ul>
+                                                <h3><a href="/">Happy Women’s day</a></h3>
+                                                <p>Action, war, romantic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="movie-box-items">
+                                        <div class="movie-image">
+                                            <img src="assets/img/movie/04.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                            <div class="movie-content">
+                                                <ul class="post-time">
+                                                    <li>
+                                                        <i class="fa-regular fa-clock"></i>
+                                                        02h 45m
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-tv"></i>
+                                                        zen up
+                                                    </li>
+                                                </ul>
+                                                <h3><a href="/">Happy Women’s day</a></h3>
+                                                <p>Action, war, romantic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="movie-box-items">
+                                        <div class="movie-image">
+                                            <img src="assets/img/movie/05.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                            <div class="movie-content">
+                                                <ul class="post-time">
+                                                    <li>
+                                                        <i class="fa-regular fa-clock"></i>
+                                                        02h 45m
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-tv"></i>
+                                                        zen up
+                                                    </li>
+                                                </ul>
+                                                <h3><a href="/">Happy Women’s day</a></h3>
+                                                <p>Action, war, romantic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="array-button">
+                            <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                        <div class="swiper-dot-3 text-center">
+                            <div class="dot2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>----> 
+
+
+            <div style="margin-top:10%;" class="container"> 
+
+                <div class="cta-movie-banner-area section-padding"> 
+                    <div class="cta-movie-banner-items bg-cover" style="background-color:white; background-position:center; background-repeat:no-repeat">
+                          <div class="row g-4">
+                            <div class="col-xl-4">
+                                <div class="banner-movie-content">
+                                    
+                                    <h2 style='color:black'>
+                                       Zen Up
+                                    </h2>
+                                    <p style='font-size:27px; color:black'>
+                                        Be the Guru you Seek
+                                       </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="trending-movie-right-items">
+                                    <div class="swiper trending-movie-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="trending-movie-thumb">
+                                                    <video class="video-background" autoplay muted loop>
+                                                        <source src="/images/btvbg.mp4" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                    <div class="trending-movie-content">
+                                                        <span>
+                                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                                              
+                                                        </span>
+                                                        <h3><a href="/">Buddha.Tv</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="trending-movie-thumb">
+                                                    <video class="video-background" autoplay muted loop>
+                                                        <source src="/images/btvbg.mp4" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                    <div class="trending-movie-content">
+                                                        <span>
+                                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                                            zen up
+                                                        </span>
+                                                        <h3><a href="/">Buddha.Tv</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="trending-movie-thumb"> 
+                        <video class="video-background" autoplay muted loop>
+                            <source src="/images/btvbg.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                                                    <div class="trending-movie-content">
+                                                        <span>
+                                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                                            zen up
+                                                        </span>
+                                                        <h3><a href="/">Buddha.Tv</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="array-button-items">
+                                        <div class="array-button-2">
+                                            <button style='color:black'; class="cta-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                                            <button style='color:black'; class="cta-next"><i class="fa-solid fa-chevron-right"></i></button>
+                                        </div>
+                                        <div class="movie-dot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movie Section Start--
+        <section class="movie-section style-2 section-padding fix">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>This Week's Hot Picks</h2>
+                </div>
+            </div>
+            <div class="swiper movie-slider-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="movie-box-items-2">
+                            <div class="movie-image">
+                                <img src="assets/img/movie/06.jpg" alt="img">
+                                <div class="number">
+                                    01
+                                </div>
+                                <div class="movie-content">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="movie-box-items-2">
+                            <div class="movie-image">
+                                <img src="assets/img/movie/07.jpg" alt="img">
+                                <div class="number">
+                                    02
+                                </div>
+                                <div class="movie-content">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="movie-box-items-2">
+                            <div class="movie-image">
+                                <img src="assets/img/movie/08.jpg" alt="img">
+                                <div class="number">
+                                    03
+                                </div>
+                                <div class="movie-content">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="movie-box-items-2">
+                            <div class="movie-image">
+                                <img src="assets/img/movie/09.jpg" alt="img">
+                                <div class="number">
+                                    04
+                                </div>
+                                <div class="movie-content">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="movie-box-items-2">
+                            <div class="movie-image">
+                                <img src="assets/img/movie/10.jpg" alt="img">
+                                <div class="number">
+                                    05
+                                </div>
+                                <div class="movie-content">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                    <ul class="post-time">
+                                        <li>
+                                            <i class="fa-regular fa-clock"></i>
+                                            02h 45m
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-tv"></i>
+                                            zen up
+                                        </li>
+                                    </ul>
+                                    <h3><a href="/">Happy Women’s day</a></h3>
+                                    <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-dot text-center pt-5">
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </section>---->
+
+        <!-- TV Shows Section Start -->
+        <section style="margin-top:20%;" class="section-padding pt-50">     
+            <div class="container"> 
+                <div>
+                    <div>
+                        <div class="swiperss" style="min-width:100px; display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 3fr)); grid-gap:20px;">  
+
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bb.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Yoga and Movement</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/be.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Wealth Creation</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bb.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Meditation and Mindfulness</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bc.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Healthy Living</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bd.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Breathwork</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/ba.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Science of Mind and Quantum Healing</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bb.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Psychedelic Healing</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/ba.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Ancient Wisdom</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bd.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Personal Development and Self-Mastery</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bc.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Soul Healing and Transformation</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/bb.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Inspirational Stories and Teachings</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tv-shows-items">
+                                    <div class="tv-shows-image">
+                                        <img src="/images/be.jpg" alt="img">
+                                        <div class="tv-shows-content">
+                                            <p>Zen up</p>
+                                            <h3><a href="#">Community and Connection</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+
+
+
+    <!-- Special Gift Div -->
+    <div id="giftDiv" 
+    style="
+        position: fixed; 
+        top: 50%; 
+        right: 20px; 
+        transform: translateY(-50%) scale(1); 
+        background-color: #1e1e1e; 
+        color: #fff; 
+        padding: 15px 30px; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+        z-index: 1000; 
+        animation: breathe 1.5s infinite;
+    ">
+    <strong>🎁 Free Gift Worth $500!</strong>
+    <button 
+        id="claimButton" 
+        style="
+            display: block; 
+            margin: 15px auto 0; 
+            padding: 10px 20px; 
+            background-color: #4CAF50; 
+            color: #fff; 
+            border: none; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            cursor: pointer;
+            text-align: center;
+        "
+        onclick="showIframeDiv()">Claim Now</button>
+    <span 
+        id="cancelGift" 
+        style="
+            position: absolute; 
+            top: 5px; 
+            right: 5px; 
+            background: #f44336; 
+            color: #fff; 
+            border: none; 
+            border-radius: 50%; 
+            width: 20px; 
+            height: 20px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 14px; 
+            cursor: pointer;
+        "
+        onclick="cancelGift(event)">×</span>
+</div>
+
+
+
+     
+
+    <div id="iframeDiv" style="display:none" class="container" style="width:100%; margin-bottom:40px; height:100%;"> 
+         <iframe 
+        src="https://api.leadconnectorhq.com/widget/form/8VEfEC5fZIkmrjRcWCSG"
+        style="width:100%;height:100%;border:none;border-radius:4px"
+        id="inline-8VEfEC5fZIkmrjRcWCSG" 
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="Leadcap-main site"
+        data-height="505"
+        data-layout-iframe-id="inline-8VEfEC5fZIkmrjRcWCSG"
+        data-form-id="8VEfEC5fZIkmrjRcWCSG"
+        title="Leadcap-main site"
+            >
+      </iframe> 
+
+    </div>
+
+
+
+
+
+
+
+         
+     
+
+        <!-- Upcoming Movie Section Start --
+        <section class="upcoming-movie-section fix section-padding pt-0">
+            <div class="container">
+                <div class="section-title-area">
+                    <div class="section-title style-2">
+                        <h2>Upcoming Movies</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="movie-wrapper style-2">
+                    <div class="swiper movie-slider-3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="movie-box-items style-2">
+                                    <div class="movie-image">
+                                        <img src="assets/img/movie/11.jpg" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="movie-content">
+                                        <ul class="post-time">
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                02h 45m
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-tv"></i>
+                                                zen up
+                                            </li>
+                                        </ul>
+                                        <h3><a href="/">Happy Women’s day</a></h3>
+                                        <p>Action, war, romantic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="movie-box-items style-2">
+                                    <div class="movie-image">
+                                        <img src="assets/img/movie/12.jpg" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="movie-content">
+                                        <ul class="post-time">
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                02h 45m
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-tv"></i>
+                                                zen up
+                                            </li>
+                                        </ul>
+                                        <h3><a href="/">Serendipity’s Edge</a></h3>
+                                        <p>Action, war, romantic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="movie-box-items style-2">
+                                    <div class="movie-image">
+                                        <img src="assets/img/movie/13.jpg" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="movie-content">
+                                        <ul class="post-time">
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                02h 45m
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-tv"></i>
+                                                zen up
+                                            </li>
+                                        </ul>
+                                        <h3><a href="/">Happy Women’s day</a></h3>
+                                        <p>Action, war, romantic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="movie-box-items style-2">
+                                    <div class="movie-image">
+                                        <img src="assets/img/movie/14.jpg" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="movie-content">
+                                        <ul class="post-time">
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                02h 45m
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-tv"></i>
+                                                zen up
+                                            </li>
+                                        </ul>
+                                        <h3><a href="/">The Preditors</a></h3>
+                                        <p>Action, war, romantic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="movie-box-items style-2">
+                                    <div class="movie-image">
+                                        <img src="assets/img/movie/15.jpg" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="movie-content">
+                                        <ul class="post-time">
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                02h 45m
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-tv"></i>
+                                                zen up
+                                            </li>
+                                        </ul>
+                                        <h3><a href="/">The Ark Menace</a></h3>
+                                        <p>Action, war, romantic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="movie-box-items style-2">
+                                    <div class="movie-image">
+                                        <img src="assets/img/movie/16.jpg" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                    <div class="movie-content">
+                                        <ul class="post-time">
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                02h 45m
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-tv"></i>
+                                                zen up
+                                            </li>
+                                        </ul>
+                                        <h3><a href="/">The Phantom Menace</a></h3>
+                                        <p>Action, war, romantic</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="upcoming-movie-banner">
+                            <img src="assets/img/movie/movie-banner.jpg" alt="img">
+                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text ripple video-popup">
+                                watch trailer <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="upcoming-movie-banner">
+                            <img src="assets/img/movie/movie-banner-2.jpg" alt="img">
+                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text ripple video-popup">
+                                watch trailer <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+
+  
+
+
+
+    Movie Category Section Start --> 
+            <div class="container">    
+                    <div class="section-title style-2">
+                        <h2>Snappy Highlights</h2>
+                    </div>  
+
+                    <div style="background-color:black; border:3px solid red; padding-left:10px; margin-left:10px; margin-right:10px; padding-right:10px; min-width:100px; padding-top:20px; padding-bottom:20px; display:grid; grid-gap:10px; grid-template-columns:repeat(auto-fit, minmax(200px, 3fr)); border-radius:20px; margin-top:30px;">
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhac.jfif"> </div> 
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhad.jfif"> </div>
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhae.jfif"> </div> 
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhag.jfif"> </div>
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhah.jfif"> </div>
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhai.jfif"> </div> 
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhaj.jfif"> </div>
+                        <div style="width:100%; height:250px;"><img style="width:100%; height:auto;" src="/images/buddhak.jfif"> </div>
+                </div>  
+            </div>  
+
+
+
+
+
+
+
+
+
+            
+
+        <!-- Feature Category Section Start --
+        <section class="feature-movie-section fix section-padding pt-0">
+            <div class="container">
+                <div class="feature-movie-wrapper">
+                    <div class="section-title style-2">
+                        <h2>Featured today</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-7">
+                            <div class="feature-movie-banner">
+                                <div class="feature-movie">
+                                    <img src="assets/img/movie/movie-banner-1.jpg" alt="img">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="feature-movie-right">
+                                <div class="movie-list-area">
+                                    <div class="movie-list-items">
+                                        <div class="movie-list-image">
+                                            <img src="assets/img/movie-list/01.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="movie-list-content">
+                                            <span>4 : 15</span>
+                                            <h4><a href="/">The Boys</a></h4>
+                                            <p>Watch The Trailer </p>
+                                            <ul class="post-like"> 
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                                    345
+                                                </li>
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-heart"></i>
+                                                    34
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="movie-list-items">
+                                        <div class="movie-list-image">
+                                            <img src="assets/img/movie-list/02.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="movie-list-content">
+                                            <span>2 : 15</span>
+                                            <h4><a href="/">Gladiator II (2024)</a></h4>
+                                            <p>Watch The Trailer </p>
+                                            <ul class="post-like"> 
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                                    345
+                                                </li>
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-heart"></i>
+                                                    34
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="movie-list-items">
+                                        <div class="movie-list-image">
+                                            <img src="assets/img/movie-list/03.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="movie-list-content">
+                                            <span>3 : 15</span>
+                                                <h4><a href="/">The Boys</a></h4>
+                                                <p>Black partner </p>
+                                                <ul class="post-like"> 
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                                        345
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-heart"></i>
+                                                        34
+                                                    </li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                    <div class="movie-list-items">
+                                        <div class="movie-list-image">
+                                            <img src="assets/img/movie-list/01.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="movie-list-content">
+                                            <span>4 : 15</span>
+                                            <h4><a href="/">The Boys</a></h4>
+                                            <p>Watch The Trailer </p>
+                                            <ul class="post-like"> 
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                                    345
+                                                </li>
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-heart"></i>
+                                                    34
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="movie-list-items">
+                                        <div class="movie-list-image">
+                                            <img src="assets/img/movie-list/02.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="movie-list-content">
+                                            <span>2 : 15</span>
+                                            <h4><a href="/">Gladiator II (2024)</a></h4>
+                                            <p>Watch The Trailer </p>
+                                            <ul class="post-like"> 
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                                    345
+                                                </li>
+                                                <li>
+                                                    <i class="fa-sharp fa-regular fa-heart"></i>
+                                                    34
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="movie-list-items">
+                                        <div class="movie-list-image">
+                                            <img src="assets/img/movie-list/03.jpg" alt="img">
+                                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <i class="fa-solid fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="movie-list-content">
+                                            <span>3 : 15</span>
+                                                <h4><a href="/">The Boys</a></h4>
+                                                <p>Black partner </p>
+                                                <ul class="post-like"> 
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                                        345
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-sharp fa-regular fa-heart"></i>
+                                                        34
+                                                    </li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    -- Exclusive Video Section Start --
+        <section class="exclusive-videos fix section-padding pt-0">
+            <div class="container">
+                <div class="section-title-area">
+                    <div class="section-title style-2">
+                        <h2>Exclusive videos</h2>
+                    </div>
+                    <div class="array-button-2">
+                        <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="swiper exclusive-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="exclusive-box-items">
+                                <div class="exclusive-image">
+                                    <img src="assets/img/exclusive-video/01.jpg" alt="img">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h3><a href="tv-shows-details.html">every last one of them</a></h3>
+                                    <p>Watch our interview</p>
+                                    <ul class="post-like"> 
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                            345
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-heart"></i>
+                                            34
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exclusive-box-items">
+                                <div class="exclusive-image">
+                                    <img src="assets/img/exclusive-video/02.jpg" alt="img">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h3><a href="tv-shows-details.html">Get emotional With me ‘inside out 2’ cast</a></h3>
+                                    <p>Watch our interview</p>
+                                    <ul class="post-like"> 
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                            345
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-heart"></i>
+                                            34
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exclusive-box-items">
+                                <div class="exclusive-image">
+                                    <img src="assets/img/exclusive-video/03.jpg" alt="img">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h3><a href="tv-shows-details.html">Once Upon A Time In Hollywood </a></h3>
+                                    <p>Watch our interview</p>
+                                    <ul class="post-like"> 
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                                            345
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-heart"></i>
+                                            34
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recently Video Section Start --
+        <section class="recently-videos fix section-padding pt-0">
+            <div class="container">
+                <div class="section-title-area">
+                    <div class="section-title style-2">
+                        <h2>Recently viewed</h2>
+                    </div>
+                    <div class="array-button-2">
+                        <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="swiper recently-videos-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="recently-view-items">
+                                <div class="recently-image">
+                                    <img src="assets/img/recently-view/01.jpg" alt="img">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="recently-view-items">
+                                <div class="recently-image">
+                                    <img src="assets/img/recently-view/02.jpg" alt="img">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="recently-view-items">
+                                <div class="recently-image">
+                                    <img src="assets/img/recently-view/03.jpg" alt="img">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="recently-view-items">
+                                <div class="recently-image">
+                                    <img src="assets/img/recently-view/04.jpg" alt="img">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <%- include('../partials/footer.ejs'); %>
+       
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>  
+        <script src="https://link.msgsndr.com/js/form_embed.js"></script>   
+
+
+
+           
+    <script>
+        // Breathing Animation Keyframes
+        const styleSheet = document.createElement('style');
+        styleSheet.innerHTML = `
+            @keyframes breathe {
+                0%, 100% { transform: translateY(-50%) scale(1); }
+                50% { transform: translateY(-50%) scale(1.05); }
+            }
+        `;
+        document.head.appendChild(styleSheet);  
+
+        // Show the iframe div with rotation and fade-in animation
+        function showIframeDiv() {
+            const iframeDiv = document.getElementById('iframeDiv');
+            const giftDiv = document.getElementById('giftDiv');
+
+            // Hide the gift div
+            giftDiv.style.display = 'none';
+
+            // Show and animate the iframe div
+            iframeDiv.style.display = 'block'; 
+        }
+
+        // Cancel the free gift popup
+        function cancelGift(event) {
+            event.stopPropagation(); // Prevent triggering the iframe display
+            const giftDiv = document.getElementById('giftDiv');
+            giftDiv.style.display = 'none';
+        }
+    </script>
+
+    </body>
+</html>
